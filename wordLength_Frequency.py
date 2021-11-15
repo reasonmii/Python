@@ -1,9 +1,10 @@
 
 # =================================================================
-# 단어의 글자 개수 : 해당 글자 개수를 가진 단어 수
+# 출력 예시
+# 단어 글자 개수 : 해당 글자 개수를 가진 단어 수
 # =================================================================
 
-make_length_wordcount(frankenstein.txt)
+wordcount(frankenstein.txt)
 # 내용 예시 : I am glad to meet you guys
 # 출력
 # 1 : 1
@@ -11,7 +12,7 @@ make_length_wordcount(frankenstein.txt)
 # 3 : 1
 # 4 : 3
 
-def make_length_wordcount(filename):
+def wordcount(filename):
     f = open("./"+filename, "r")
     text = f.read()
     wordList = text.split()
@@ -32,7 +33,7 @@ def make_length_wordcount(filename):
 # 단어 : 단어 빈도수
 # =================================================================
 
-make_length_wordcount(frankenstein.txt)
+wordcount(frankenstein.txt)
 # 내용 예시 : I am glad to meet you guys
 # 출력
 # I : 1
@@ -40,7 +41,7 @@ make_length_wordcount(frankenstein.txt)
 # glad : 1
 # to : 1
   
-def make_word_count(filename):
+def wordcount(filename):
     f = open("./"+filename, "r")
     text = f.read()
     wordList = text.split()
@@ -60,7 +61,7 @@ def make_word_count(filename):
     
 # =================================================================
 # 위 두 가지 함수 결과가 모두 포함된
-# '기존파일명_analyzed_Yuna_Lee.txt' 파일 생성
+# '기존파일명_analyzed_Lee.txt' 파일 생성
 # =================================================================      
 
 analyze_text("frankenstein")
@@ -81,7 +82,7 @@ def analyze_text(filename):
         else:
             wordCount[len(word)] += 1
     
-    f=open("./"+filename+"_analyzed_Yuna_Lee.txt",'w')
+    f=open("./"+filename+"_analyzed_Lee.txt",'w')
     
     for key, value in wordCount.items():
         data = "Words of length %d : %d\n" %(key, value)
