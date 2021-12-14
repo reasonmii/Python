@@ -18,6 +18,7 @@ def collect_dictionary(obj):
         dic[v].append(k)
     return dict(dic)    
 
+
 # Example
 ages = {
   'Peter': 10,
