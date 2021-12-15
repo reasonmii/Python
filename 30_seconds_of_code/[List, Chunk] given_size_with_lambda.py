@@ -7,6 +7,7 @@ Chunks a list into smaller lists of a specified size
 - Use map() on the list and fill it with splices of the given list
 
 https://www.30secondsofcode.org/python/s/chunk
+https://www.30secondsofcode.org/python/s/chunk-into-n
 '''
 
 from math import ceil
