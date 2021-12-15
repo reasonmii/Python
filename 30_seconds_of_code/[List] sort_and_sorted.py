@@ -10,6 +10,8 @@ When to use
 - sorted() should be used when the object to be sorted is an iterable
   (e.g. list, tuple, dictionary, string)
   and the desired outcome is a sorted list containing all elements
+  
+https://www.30secondsofcode.org/articles/s/python-sortedlist-vs-list-sort  
 '''
 
 nums = [2, 3, 1, 5, 6, 4, 0]
