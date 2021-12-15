@@ -28,3 +28,12 @@ ages_two = {
 
 merge_dictionaries(ages_one, ages_two)
 # { 'Peter': 10, 'Isabel': 11, 'Anna': 9 }
+
+
+# reference =====================================================
+
+a = {'alice': [1, 2, 3], 'bob': 20, 'tony': 15, 'suzy': 30}
+a.update({'bob':99, 'tony':99, 'kim': 30})
+
+a
+# {'alice': [1, 2, 3], 'bob': 99, 'tony': 99, 'suzy': 30, 'kim': 30}
