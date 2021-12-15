@@ -1,5 +1,7 @@
-
 '''
+Code Anatomy - Writing high performance Python code
+https://www.30secondsofcode.org/articles/s/code-anatomy-performant-python
+
 This implementation may work well enough, but doesn't account for duplicates in b.
 This makes the code take more time than necessary in cases with many duplicates in the second list.
 '''
