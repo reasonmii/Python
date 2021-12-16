@@ -1,5 +1,6 @@
 '''
 Python slice notation
+https://www.30secondsofcode.org/articles/s/python-slice-notation
 
 1. Basic syntax
 - It is used to return a list or a portion of a list
