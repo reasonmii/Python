@@ -3,8 +3,7 @@ Python's f-strings provide a more readable, concise and less error-prone way to 
 - https://www.30secondsofcode.org/articles/s/6-python-f-strings-tips
 - https://www.30secondsofcode.org/articles/s/python-fstrings-str-format
 
-- Formatted string literals, commonly known as f-strings, are strings prefixed with 'f' or 'F'
-- These strings can contain replacement fields, enclosed in curly braces ({})
+Formatted string literals, commonly known as f-strings, are strings prefixed with 'f' or 'F'
 
 1. String Interpolation
 - The most used f-string feature by far
