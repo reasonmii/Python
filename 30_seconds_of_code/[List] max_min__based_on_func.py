@@ -23,8 +23,8 @@ max_by([{ 'n': 4 }, { 'n': 2 }, { 'n': 8 }, { 'n': 6 }], lambda v : v['n']) # 8
 Returns the minimum value of a list, after mapping
 each element to a value using the provided function
 
-- Use map() with fn to map each element to a value using the provided function.
-- Use min() to return the minimum value.
+- Use map() with fn to map each element to a value using the provided function
+- Use min() to return the minimum value
 
 https://www.30secondsofcode.org/python/s/min-by
 '''
