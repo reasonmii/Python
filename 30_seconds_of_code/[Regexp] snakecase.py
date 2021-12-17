@@ -10,7 +10,7 @@ Converts a string to snake case
 \1 is equivalent to re.search(...).group(1)
 - the first parentheses-delimited expression inside of the regex
 
-https://www.30secondsofcode.org/python/s/min-by
+https://www.30secondsofcode.org/python/s/snake
 '''
 
 import re
