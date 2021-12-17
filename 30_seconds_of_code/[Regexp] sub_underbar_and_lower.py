@@ -7,7 +7,7 @@ Converts a string to kebab case
 - Use re.sub() to match all words in the string, str.lower() to lowercase them
 - Finally, use str.join() to combine all word using - as the separator
 
-정규표현식
+정규표현식 Regular Expression
 https://wikidocs.net/4308
 1) \s
    whitespace 문자와 매치
