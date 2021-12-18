@@ -1,6 +1,22 @@
+'''
+1) flatten
+Flattens a list of lists once
+
+- Use a list comprehension to extract each value from sub-lists in order
+
+https://www.30secondsofcode.org/python/s/flatten
+'''
+
+def flatten(lst):    
+    return [x for y in lst for x in y]
+
+            
+# Example
+flatten([[1, 2, 3, 4], [5, 6, 7, 8]]) # [1, 2, 3, 4, 5, 6, 7, 8]
+
 
 '''
-deep_flatten
+2) deep_flatten
 Deep flattens a list
 
 - Use recursion
