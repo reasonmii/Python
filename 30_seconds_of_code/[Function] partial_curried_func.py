@@ -6,7 +6,9 @@ Curries a function
 - Use functools.partial() to return a new partial object
   which behaves like fn with the given arguments, args, partially applied
 
-https://www.30secondsofcode.org/python/s/compose-right
+★ A curried function is a function which takes multiple parameters one at a time
+
+https://www.30secondsofcode.org/python/s/curry
 '''
 
 from functools import partial
