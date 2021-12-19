@@ -1,5 +1,5 @@
 '''
-compose
+1) compose
 Performs right-to-left function composition
 
 - Use functools.reduce() to perform right-to-left function composition
@@ -25,7 +25,7 @@ multiply_and_add_5(5, 2) # 15
 
 
 '''
-compose_right
+2) compose_right
 Performs left-to-right function composition
 
 - Use functools.reduce() to perform left-to-right function composition
