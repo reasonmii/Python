@@ -5,7 +5,7 @@ Returns the hexadecimal representation of the given number
 
 - Use hex() to convert a given decimal number into its hexadecimal equivalent
 
-https://www.30secondsofcode.org/python/s/fibonacci
+https://www.30secondsofcode.org/python/s/to-hex
 '''
 
 def to_hex(n):
