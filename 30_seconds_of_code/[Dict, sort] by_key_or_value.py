@@ -1,6 +1,6 @@
 
 '''
-sort_dict_by_key
+1) sort_dict_by_key
 Sorts the given dictionary by key
 
 - Use dict.items() to get a list of tuple pairs from d and sort it using sorted()
