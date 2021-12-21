@@ -21,12 +21,6 @@ capitalize('fooBar') # 'FooBar'
 capitalize('fooBar', True) # 'Foobar'
 
 
-# reference =====================================================
-
-s = 'fooBar'
-s[:1]   # f
-
-
 '''
 2) decapitalize
 Decapitalizes the first letter of a string
@@ -46,3 +40,9 @@ def decapitalize(s, upper_rest=False):
 # Example
 decapitalize('FooBar') # 'fooBar'
 decapitalize('FooBar', True) # 'fOOBAR'
+
+
+# reference =====================================================
+
+s = 'fooBar'
+s[:1]   # f
