@@ -36,3 +36,20 @@ def take_right(lst, n=1):
 take_right([1, 2, 3], 2) # [2, 3]
 take_right([1, 2, 3]) # [3]
 
+
+'''
+initial
+Returns all the elements of a list except the last one
+
+- Use lst[:-1] to return all but the last element of the list
+
+https://www.30secondsofcode.org/python/s/initial
+'''
+
+def initial(lst):
+    return lst[:-1]
+
+
+# Example
+initial([1, 2, 3]) # [1, 2]
+
