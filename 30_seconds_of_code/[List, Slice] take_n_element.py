@@ -1,6 +1,6 @@
 
 '''
-take
+1) take
 Returns a list with n elements removed from the beginning
 
 - Use slice notation to create a slice of the list
@@ -19,7 +19,7 @@ take([1, 2, 3], 0) # []
 
 
 '''
-take_right
+2) take_right
 Returns a list with n elements removed from the end
 
 - Use slice notation to create a slice of the list
@@ -38,7 +38,7 @@ take_right([1, 2, 3]) # [3]
 
 
 '''
-initial
+3) initial
 Returns all the elements of a list except the last one
 
 - Use lst[:-1] to return all but the last element of the list
