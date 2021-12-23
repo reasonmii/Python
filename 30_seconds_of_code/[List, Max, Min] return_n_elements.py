@@ -1,6 +1,6 @@
 
 '''
-max_n
+1) max_n
 Returns the n maximum elements from the provided list
 
 - Use sorted() to sort the list
@@ -23,7 +23,7 @@ max_n([1, 2, 3], 4) # [3, 2]
 
 
 '''
-min_n
+2) min_n
 Returns the n minimum elements from the provided list
 
 - Use sorted() to sort the list.
