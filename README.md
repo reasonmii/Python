@@ -1,4 +1,4 @@
-<b>pip code<b>
+<b>pip code</b>
 - pip list
 - python -m pip install --user <<lib>>
 
