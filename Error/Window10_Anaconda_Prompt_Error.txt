@@ -1,0 +1,15 @@
+Error : Collecting package metadata (current_repodata.json): failed
+
+There are 3 ways
+▶ 제어판 > 시스템 및 보안 > 시스템 > 고급 시스템 설정 > 환경변수
+   시스템 변수 path double click - 새로 만들기 - "Anaconda경로\Library\bin" 입력
+▶ "아나콘다경로/Library/bin/" 경로 열기
+   다음 네 가지 파일들을 복사 : libcrypto-1_1-x64.dll, libcrypto-1_1-x64.pdb, libssl-1_1-x64.dll, libssl-1_1-x64.pdb
+   "아나콘다경로/DLLs/" 경로에 붙여넣기
+▶ Install Anaconda OpenSSL package
+1) Site : https://slproweb.com/products/Win32OpenSSL.html
+   Download 'Win64 OpenSSL v1.1.1h' : click 'exe'
+2) Run the Installer
+3) Go to 'C:\OpenSSL-Win64\bin\'
+4) Click 'openssl'
+5) To check version, write 'version'
