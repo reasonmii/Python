@@ -1,2 +1,4 @@
+Error : Could not install packages due to an EnvironmentError
+
 Anaconda Prompt 패키지 업그레이드 시 발생
 방법 : Anaconda Prompt 실행 시 우클릭 > 관리자 권한으로 실행
